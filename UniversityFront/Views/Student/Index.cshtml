@@ -1,0 +1,83 @@
+﻿@model Models.StudentCourseViewModel
+
+@{
+    ViewData["Title"] = "Alumnos";
+}
+
+<div>
+    <h2>
+        Alumnos
+    </h2>
+
+    <a class="link-blue-light-button" asp-action="Create">Crear Nuevo(a)</a>
+
+    <form class="rounded mt-4 mb-2 fs-5 bg-blue-opaque" asp-controller="Employee" asp-action="Index" method="Post">
+        <div class="d-flex flex-row filter-container m-2 bg-green-opaque">
+            <label class="control-label m-2 fw-bold text-white-color">Curso:</label>
+            <select asp-for="idCourse" class="form-select text-dark-color mt-2" aria-label="Default select example">
+                @if (Model.courses.Count > 0)
+                {
+                    <option value="">Selecciona un curso</option>
+                    foreach (var course in Model.courses)
+                    {
+                        <option value="@course.idCourse">@course.title</option>
+                    }
+
+                }
+                else
+                {
+                    <option value="">No hay cursos registrados</option>
+                }
+
+            </select>
+        </div>
+        <div class="d-flex flex-row filter-container m-2">
+            <label class="control-label m-2 fw-bold text-white-color">Nombre del empleado:</label>
+            <input class="form-control text-dark-color m-2 w-50" type="text" asp-for="nameStudent" />
+            <input class="link-orange-button m-2" type="submit" value="Filtrar" />
+        </div>
+    </form>
+
+    <table id="employee-table" class="table bg-blue-opaque text-white-color table-borderless mt-4">
+        <thead class="bg-blue-marine">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Genero</th>
+                <th>imagen</th>
+                <th>Fecha de registro</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.students.Any())
+            {
+                @foreach (var item in Model.students)
+                {
+
+                    <tr>
+                        <td>@Html.DisplayFor(varItem => item.idStudent)</td>
+                        <td>@Html.DisplayFor(varItem => item.firstMidName)</td>
+                        <td>@Html.DisplayFor(varItem => item.lastName)</td>
+                        <td>@Html.DisplayFor(varItem => item.genre)</td>
+                        <td><img class="img-student-info" src="data:image/jpeg;base64,@Convert.ToBase64String(item.img)" alt="Image" /></td>
+                        <td>@Html.DisplayFor(varItem => item.enrollmentDate)</td>
+                        <td>
+                            <a class="link-orange-button" asp-action="Edit" asp-route-id="@item.idStudent">Editar</a>
+                            <a class="link-orange-button" asp-action="Details" asp-route-id="@item.idStudent">Detalles</a>
+                            <a class="link-orange-button" asp-action="Delete" asp-route-id="@item.idStudent">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan='6' class="text-center">No se encontraron empleados.</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

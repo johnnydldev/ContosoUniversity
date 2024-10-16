@@ -1,0 +1,55 @@
+﻿
+@model UniversityFront.Models.StudentViewModel
+
+@{
+    ViewData["Title"] = "Crear Alumno";
+
+}
+<h2>Crear Alumno</h2>
+
+<hr />
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Create" class="form-rounded bg-blue-opaque" method="Post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="img" class="control-label text-white-color"></label>
+                <img id="imgUploaded" src="~/images/user.png" class="img-profile" />
+                <input id="imgInp" type="file" asp-for="img" class="form-control" />
+                <span asp-validation-for="img" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="firstMidName" class="control-label text-white-color"></label>
+                <input asp-for="firstMidName" class="form-control" />
+                <span asp-validation-for="firstMidName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="lastName" class="control-label text-white-color"></label>
+                <input asp-for="lastName" class="form-control" />
+                <span asp-validation-for="lastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="genre" class="control-label text-white-color"></label>
+                <select asp-for="genre" class="form-select" aria-label="Default select example">
+                    <option selected disabled>Elige una opción</option>
+                    <option class="bg-blue-marine text-white-color" value="Hombre">Hombre</option>
+                    <option class="bg-blue-marine text-white-color" value="Mujer">Mujer</option>
+                </select>
+                <span asp-validation-for="genre" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group mt-2 d-flex justify-content-between">
+                <input type="submit" value="Crear" class="link-blue-light-button" />
+                <a class="link-orange-button" asp-action="Index">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial"); 
+    }
+    <script src="~/js/ChargeImageStudent.js"></script>
+}

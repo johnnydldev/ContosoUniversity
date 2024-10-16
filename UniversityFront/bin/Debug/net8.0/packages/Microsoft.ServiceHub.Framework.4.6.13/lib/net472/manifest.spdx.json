@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "fileName": "./Microsoft.ServiceHub.Framework.dll.lce",
+      "SPDXID": "SPDXRef-File--Microsoft.ServiceHub.Framework.dll.lce-725E87072AE268C87E816A9A7FB92BA62F68607B",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "098d6bd5f0aa511b24beac568c66d8296d5f29e43042dcd50c6978cf5ae74398"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "725e87072ae268c87e816a9a7fb92ba62f68607b"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Microsoft.ServiceHub.Framework",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "91677a683af48f1023305fb08b1f44a22bc7ae5e"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--Microsoft.ServiceHub.Framework.dll.lce-725E87072AE268C87E816A9A7FB92BA62F68607B"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.ServiceHub.Framework 1.0.0",
+  "documentNamespace": "https://sbom.microsoft/1:34sbAVZth0--DQCSE2iE2Q:kMXbC2KgP0yw9pOD9nhl7g/17981:9679684/Microsoft.ServiceHub.Framework:1.0.0:ClO111isZEavP4KQ4u7Iow",
+  "creationInfo": {
+    "created": "2024-06-05T03:08:46Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-0.2.7"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

@@ -1,0 +1,167 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    color: white;
+    background-color: #00202e;
+}
+
+.bg-blue-opaque {
+    background-color: #003f5c;
+}
+
+.bg-blue-marine {
+    background-color: #2c4875;
+}
+
+.bg-salmon {
+    background-color: #ff6361;
+}
+
+.bg-orange {
+    background-color: #ff8531;
+}
+
+bg-yellow {
+    background-color: #ffa600;
+}
+
+.text-white-color{
+    color: aliceblue;
+}
+
+.text-dark-color {
+    color: #00202e;
+    font-weight: bold;
+}
+
+.text-orage-color {
+    color: #ff8531;
+}
+
+.text-yellow-color {
+    color: #ffa600;
+}
+
+.link-white-color{
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.link-orange-color {
+    color: #ff8531;
+    text-decoration: none;
+}
+
+.link-white-color:hover, .link-white-color:focus {
+    color: #ff8531;
+    text-decoration: none;
+}
+
+.link-orange-color:hover, .link-orange-color:focus {
+    color: aliceblue;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.link-blue-button {
+    color: aliceblue;
+    background-color: #2c4875;
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.link-blue-button:hover, .link-blue-button:focus {
+    color: #ff8531;
+    background-color: transparent;
+    border-color: #2c4875;
+    border-style: solid;
+}
+
+.link-orange-button {
+    color: aliceblue;
+    background-color: #ff8531;
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.link-orange-button:hover, .link-orange-button:focus {
+    color: aliceblue;
+    background-color: transparent;
+    border-color: #ff8531;
+    border-style: solid;
+}
+
+.link-blue-light-button {
+    color: aliceblue;
+    background-color: #476f95;
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.link-blue-light-button:hover, .link-blue-light-button:focus {
+    color: #ff8531;
+    background-color: transparent;
+    border-color: #476f95;
+    border-style: solid;
+}
+
+.table-borderless{
+    border: none;
+    border-radius: 5px;
+}
+
+.form-rounded{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.img-profile {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ff8531;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.img-student-info {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff8531;
+    border-radius: 25px;
+    margin: 2px;
+    transition: transform .2s;
+}
+
+.img-student-info:hover, .img-student-info:focus {
+    transform: scale(3.5);
+}

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\universityfront\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|solutionrelative:models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\universityfront\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\universityfront\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\universityfront\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CACBA2-55F0-48D0-A597-6A6231EAB7F5}|..\\DAOControllers\\DAOControllers.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\daocontrollers\\daostudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CAD57D-55FE-42D6-883C-C8FD25A5AB22}|..\\Models\\Models.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|c:\\users\\johnnydl\\documents\\proyectos c#\\mvc\\contosouniversity\\universityfront\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F52598E5-224E-489A-85A1-97378FDEDE7D}|UniversityFront.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Models\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\StudentViewModel.cs",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Models\\StudentViewModel.cs",
+              "RelativeToolTip": "Models\\StudentViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:17:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA3wE4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T23:33:22.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T23:41:03.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAwKUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-11T08:40:22.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\UniversityFront\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T23:40:47.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAOStudent.cs",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\DAOControllers\\DAOStudent.cs",
+              "RelativeDocumentMoniker": "..\\DAOControllers\\DAOStudent.cs",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\DAOControllers\\DAOStudent.cs",
+              "RelativeToolTip": "..\\DAOControllers\\DAOStudent.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwDEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T22:08:42.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\JohnnyDL\\Documents\\Proyectos C#\\MVC\\ContosoUniversity\\Models\\Student.cs",
+              "RelativeToolTip": "..\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T20:47:00.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
